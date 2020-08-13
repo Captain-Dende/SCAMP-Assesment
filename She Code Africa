@@ -1,0 +1,13 @@
+Number = input("Please enter the range number: ")
+
+FirstValue = 0
+SecondValue = 1
+
+for sequence in range(0, Number):
+    if (sequence <= 1):
+        Fibonacci = sequence
+    else
+        fib =  FirstValue + SecondValue
+        FirstValue = SecondValue
+        SecondValue = Fibonacci
+    print(Fibonacci)
